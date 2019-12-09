@@ -1,0 +1,246 @@
+    /*Start Leroy challenge opdracht*/
+    
+   /*end*/ 
+
+body {
+  font-family: sans-serif;
+  /*background-color: dodgerblue;*/
+  margin: 0;
+  padding: 0;
+ /**/
+ color: rgb(41,146,252);   
+ width: 100%;
+ height: auto;
+ /**/
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, .7);
+  background-image: url('../img/transp.png'), url('../img/grid.png');
+  overflow: auto;
+  width: 1240px;
+
+    /*Start Leroy challenge opdracht*/
+        margin:0 auto;
+   /*end*/ 
+    
+    
+  /* margin: 0 auto;
+  Als je een element met een beperkte breedte zoals dit div-element met de class wrapper
+  wil centreren dan geef je hem en marge 0 auto: vertikaal niets maar horizontaal auto.
+  Dus de linkermarge is auto en de rechtermarge ook. Het element staat dan in het midden.
+  Controleer maar door het browservenster van breedte te laten veranderen.
+  */
+}
+header {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+    
+    /*Start Leroy challenge opdracht
+verwijderd: padding-bottom: 10px;
+    /*end*/ 
+}
+h1{
+    /*Start Leroy challenge opdracht*/
+font-size:2em;
+    /*end*/ 
+  margin-top: 0px;
+  padding: 40px 0px 0px 100px;
+}
+em
+{
+color:red;
+}
+.sec1
+{
+padding-left: 50px;
+}
+.tagline
+{
+    /*Start Leroy challenge opdracht*/
+        margin-left:40px;
+        align-self: flex-start;
+    /*end*/     
+
+padding-bottom: 20px;
+}
+.auteur {
+    /*Start Leroy challenge opdracht
+    positionering auteur top rechts*/
+        margin:20px 40px 0px 0px;
+        font-size: 15px;
+    /*end*/     
+    
+  float: right;
+  text-align: right;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  text-decoration: none;
+  color: #aaa;
+}
+main {
+ padding-left:40px;
+}
+section {border:1px solid red;
+  background-color: rgba(30, 200, 240, 0.5);
+  /*width: 360px;*/
+  /* door de breedte in te perken zouden er wel 3 sections in het main-element
+  naast elkaar passen */
+  float: left;
+  /* float: hierdoor gaan de elementen naar links en als er nog ruimte aan de
+  rechterkant over is, vloeit de inhoud, die hiernaar komt er in.
+  Kijk eventueel wat er gebeurt als je float:left weghaald!! */
+  border-radius: 15px;
+    
+    /*Start Leroy challenge opdracht*/
+    width: 360px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+       
+    /*40 pixels of 2 blokken links en 40pixels of 2 blokken rechts vrij houden*/
+    margin: 20px;
+
+   /*end*/ 
+}
+.weinig {
+   /* dit is voor de sections met weinig inhoud: die kunnen smaller.
+   Ze hebben in de amrk-up een class weinig meegekregen.
+   Kijk goed naar de uitwerking en geef ze een breedte,
+   zodat ze met 4 secties naast elkaar kunnen */
+    
+    /*Start Leroy challenge opdracht*/
+    width: 260px;
+    margin:40px 40px 0px 0px;
+    /*end*/ 
+}
+
+.prioriteiten
+{
+padding-bottom: 60px;  
+}
+
+#agenda
+{
+}
+
+#uitstel
+{
+    
+}
+header, h1{
+        /*Start Leroy challenge opdracht*/
+            padding-left:30px;
+        /*end*/ 
+}
+
+#sector1
+{
+padding-bottom: 90px;     
+}
+#schrijfboek
+{
+padding-bottom: 72px;      
+}
+
+#prioriteiten
+{
+padding-bottom: 36px;     
+}
+#uitstel
+{
+padding-bottom: 54px;    
+}
+
+
+#sector2
+{
+clear:left;
+margin:40px 20px 0px 0px;    
+ 
+padding-bottom: 30px;  
+}
+
+#rationeel
+{
+margin-top:40px; 
+padding-bottom: 118px;     
+}
+
+#leven
+{
+margin-top:40px; 
+padding-bottom: 140px;  
+}
+
+
+#sector3
+{
+clear:left;
+margin-top:20px;    
+margin-left:0px;   
+padding-bottom: 50px;
+}
+#s32
+{
+padding-bottom: 140px;    
+}
+
+#s33
+{
+padding-bottom: 15px;  
+}
+
+
+
+section h3{
+color: #FFF;
+  margin: 0;
+  padding: 40px 0px 0px 20px;
+  font-size: 20px;
+
+  background-color: blue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/*voor ieder h3 waar in je de tree uiteindelijk de p vind, pas je het volgende toe:*/
+
+h3 ~ p{
+    
+    /*Start Leroy challenge opdracht
+    note: volgende verwijderd: padding-top:40px; zodat de margin opnieuw kon worden toegepast voor de challenge opdracht 
+    --> color:red --> color#000*/
+        margin: 20px 0px 0px 20px;
+        padding-bottom:20px;
+        color:#000;    
+   
+    /*end*/     
+    
+
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+}
+
+footer {
+  clear: left;
+  /*als dit achterwege blijft vloeit de footer ook nog langs de
+  floatende elementen.
+  Deze 'hack' zorgte er dus voor dat de footer 'onder' de sectins
+  blijft */
+background-color: rgba(0,0,0,.7);
+    color: white;
+    padding-left: 70px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}

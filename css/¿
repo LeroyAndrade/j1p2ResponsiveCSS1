@@ -1,0 +1,625 @@
+    /*Start Leroy*/
+    
+   /*end*/ 
+
+body {
+  font-family: sans-serif;
+  /*background-color: dodgerblue;*/
+  margin: 0;
+  padding: 0;
+ /**/
+ color: rgb(41,146,252);   
+ width: 100%;
+ height: auto;
+ /**/
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, .7);
+  background-image: url('../img/transp.png'), url('../img/grid.png');
+  overflow: auto;|
+  width: 1240px;
+
+    /*Start Leroy*/
+    margin:0 auto;
+   /*end*/ 
+    
+    
+  /* margin: 0 auto;
+  Als je een element met een beperkte breedte zoals dit div-element met de class wrapper
+  wil centreren dan geef je hem en marge 0 auto: vertikaal niets maar horizontaal auto.
+  Dus de linkermarge is auto en de rechtermarge ook. Het element staat dan in het midden.
+  Controleer maar door het browservenster van breedte te laten veranderen.
+  */
+}
+header {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+}
+h1{
+  margin-top: 0;
+  padding: 20px 0px 0px 100px;
+}
+
+.sec1
+{
+padding-left: 50px;
+}
+.tagline
+{
+padding-left:100px;
+    padding-bottom: 20px;
+}
+.auteur {
+  float: right;
+  text-align: right;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  text-decoration: none;
+  color: #aaa;
+}
+main {
+ padding-left:40px;
+}
+
+section {
+  background-color: rgba(30, 200, 240, 0.5);
+  /*width: 360px;*/
+  /* door de breedte in te perken zouden er wel 3 sections in het main-element
+  naast elkaar passen */
+  float: left;
+  /* float: hierdoor gaan de elementen naar links en als er nog ruimte aan de
+  rechterkant over is, vloeit de inhoud, die hiernaar komt er in.
+  Kijk eventurrl wat er gebeurt als je float:left weghaald!! */
+  border-radius: 15px;
+    
+    /*Start Leroy*/
+    width: 360px;
+    box-sizing: border-box;
+    
+    /*40 pixels of 2 blokken links en 40pixels of 2 blokken rechts vrij houden*/
+    margin: 20px;
+
+   /*end*/ 
+}
+.weinig {
+   /* dit is voor de sections met weinig inhoud: die kunnen smaller.
+   Ze hebben in de amrk-up een class weinig meegekregen.
+   Kijk goed naar de uitwerking en geef ze een breedte,
+   zodat ze met 4 secties naast elkaar kunnen */
+    
+    /*Start Leroy*/
+    width: 260px;
+    
+   /*end*/ 
+    
+}
+
+.prioriteiten
+{
+padding-bottom: 52px;  
+}
+
+#agenda
+{
+}
+
+#uitstel
+    /*Start Leroy*/
+    
+   /*end*/ 
+
+body {
+  font-family: sans-serif;
+  /*background-color: |     /*Start Leroy*/
+    
+   /*end*/ 
+
+body {
+  font-family: sans-serif;
+  /*background-color: dodgerblue;*/
+  margin: 0;
+  padding: 0;
+ /**/
+ color: rgb(41,146,252);   
+ width: 100%;
+ height: auto;
+ /**/
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, .7);
+  background-image: url('../img/transp.png'), url('../img/grid.png');
+  overflow: auto;|
+  width: 1240px;
+
+    /*Start Leroy*/
+    margin:0 auto;
+   /*end*/ 
+    
+    
+  /* margin: 0 auto;
+  Als je een element met een beperkte breedte zoals dit div-element met de class wrapper
+  wil centreren dan geef je hem en marge 0 auto: vertikaal niets maar horizontaal auto.
+  Dus de linkermarge is auto en de rechtermarge ook. Het element staat dan in het midden.
+  Controleer maar door het browservenster van breedte te laten veranderen.
+  */
+}
+header {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+}
+h1{
+  margin-top: 0;
+  padding: 20px 0px 0px 100px;
+}
+
+.sec1
+{
+padding-left: 50px;
+}
+.tagline
+{
+padding-left:100px;
+    padding-bottom: 20px;
+}
+.auteur {
+  float: right;
+  text-align: right;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  text-decoration: none;
+  color: #aaa;
+}
+main {
+ padding-left:40px;
+}
+
+section {
+  background-color: rgba(30, 200, 240, 0.5);
+  /*width: 360px;*/
+  /* door de breedte in te perken zouden er wel 3 sections in het main-element
+  naast elkaar passen */
+  float: left;
+  /* float: hierdoor gaan de elementen naar links en als er nog ruimte aan de
+  rechterkant over is, vloeit de inhoud, die hiernaar komt er in.
+  Kijk eventurrl wat er gebeurt als je float:left weghaald!! */
+  border-radius: 15px;
+    
+    /*Start Leroy*/
+    width: 360px;
+    box-sizing: border-box;
+    
+    /*40 pixels of 2 blokken links en 40pixels of 2 blokken rechts vrij houden*/
+    margin: 20px;
+
+   /*end*/ 
+}
+.weinig {
+   /* dit is voor de sections met weinig inhoud: die kunnen smaller.
+   Ze hebben in de amrk-up een class weinig meegekregen.
+   Kijk goed naar de uitwerking en geef ze een breedte,
+   zodat ze met 4 secties naast elkaar kunnen */
+    
+    /*Start Leroy*/
+    width: 260px;
+    
+   /*end*/ 
+    
+}
+
+.prioriteiten
+{
+padding-bottom: 52px;  
+}
+
+#agenda
+{
+}
+
+#uitstel
+{
+    
+}
+
+
+
+section h3{
+color: #FFF;
+  margin: 0;
+  padding: 20px 0 40px 60px;
+  font-size: 20px;
+  line-height: 21px;
+  background-color: blue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h3~ p
+{
+padding-top:40px;
+color:red;    
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+footer {
+  clear: left;
+  /*als dit achterwege blijft vloeit de footer ook nog langs de
+  floatende elementen.
+  Deze 'hack' zorgte er dus voor dat de footer 'onder' de sectins
+  blijft */
+  background-color: rgba(0,0,0,.7);
+  color: white;
+    padding-left: 70px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+|||||||||||||||||||    /*Start Leroy*/
+    
+   /*end*/ 
+
+body {
+  font-family: sans-serif;
+  /*background-color: dodgerblue;*/
+  margin: 0;
+  padding: 0;
+ /**/
+ color: rgb(41,146,252);   
+ width: 100%;
+ height: auto;
+ /**/
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, .7);
+  background-image: url('../img/transp.png'), url('../img/grid.png');
+  overflow: auto;|
+  width: 1240px;
+
+    /*Start Leroy*/
+    margin:0 auto;
+   /*end*/ 
+    
+    
+  /* margin: 0 auto;
+  Als je een element met een beperkte breedte zoals dit div-element met de class wrapper
+  wil centreren dan geef je hem en marge 0 auto: vertikaal niets maar horizontaal auto.
+  Dus de linkermarge is auto en de rechtermarge ook. Het element staat dan in het midden.
+  Controleer maar door het browservenster van breedte te laten veranderen.
+  */
+}
+header {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+}
+h1{
+  margin-top: 0;
+  padding: 20px 0px 0px 100px;
+}
+
+.sec1
+{
+padding-left: 50px;
+}
+.tagline
+{
+padding-left:100px;
+    padding-bottom: 20px;
+}
+.auteur {
+  float: right;
+  text-align: right;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  text-decoration: none;
+  color: #aaa;
+}
+main {
+ padding-left:40px;
+}
+
+section {
+  background-color: rgba(30, 200, 240, 0.5);
+  /*width: 360px;*/
+  /* door de breedte in te perken zouden er wel 3 sections in het main-element
+  naast elkaar passen */
+  float: left;
+  /* float: hierdoor gaan de elementen naar links en als er nog ruimte aan de
+  rechterkant over is, vloeit de inhoud, die hiernaar komt er in.
+  Kijk eventurrl wat er gebeurt als je float:left weghaald!! */
+  border-radius: 15px;
+    
+    /*Start Leroy*/
+    width: 360px;
+    box-sizing: border-box;
+    
+    /*40 pixels of 2 blokken links en 40pixels of 2 blokken rechts vrij houden*/
+    margin: 20px;
+
+   /*end*/ 
+}
+.weinig {
+   /* dit is voor de sections met weinig inhoud: die kunnen smaller.
+   Ze hebben in de amrk-up een class weinig meegekregen.
+   Kijk goed naar de uitwerking en geef ze een breedte,
+   zodat ze met 4 secties naast elkaar kunnen */
+    
+    /*Start Leroy*/
+    width: 260px;
+    
+   /*end*/ 
+    
+}
+
+.prioriteiten
+{
+padding-bottom: 52px;  
+}
+
+#agenda
+{
+}
+
+#uitstel
+{
+    
+}
+
+
+
+section h3{
+color: #FFF;
+  margin: 0;
+  padding: 20px 0 40px 60px;
+  font-size: 20px;
+  line-height: 21px;
+  background-color: blue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h3~ p
+{
+padding-top:40px;
+color:red;    
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+footer {
+  clear: left;
+  /*als dit achterwege blijft vloeit de footer ook nog langs de
+  floatende elementen.
+  Deze 'hack' zorgte er dus voor dat de footer 'onder' de sectins
+  blijft */
+  background-color: rgba(0,0,0,.7);
+  color: white;
+    padding-left: 70px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+|
+
+  margin: 0;
+  padding: 0;
+ /**/
+ color: rgb(41,146,252);   
+ width: 100%;
+ height: auto;
+ /**/
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, .7);
+  background-image: url('../img/transp.png'), url('../img/grid.png');
+  overflow: auto;|
+  width: 1240px;
+
+    /*Start Leroy*/
+    margin:0 auto;
+   /*end*/ 
+    
+    
+  /* margin: 0 auto;
+  Als je een element met een beperkte breedte zoals dit div-element met de class wrapper
+  wil centreren dan geef je hem en marge 0 auto: vertikaal niets maar horizontaal auto.
+  Dus de linkermarge is auto en de rechtermarge ook. Het element staat dan in het midden.
+  Controleer maar door het browservenster van breedte te laten veranderen.
+  */
+}
+header {
+  background-color: rgba(0,0,0,.7);
+  color: #fff;
+}
+h1{
+  margin-top: 0;
+  padding: 20px 0px 0px 100px;
+}
+
+.sec1
+{
+padding-left: 50px;
+}
+.tagline
+{
+padding-left:100px;
+    padding-bottom: 20px;
+}
+.auteur {
+  float: right;
+  text-align: right;
+}
+header a {
+  color: #fff;
+}
+header a:hover {
+  text-decoration: none;
+  color: #aaa;
+}
+main {
+ padding-left:40px;
+}
+
+section {
+  background-color: rgba(30, 200, 240, 0.5);
+  /*width: 360px;*/
+  /* door de breedte in te perken zouden er wel 3 sections in het main-element
+  naast elkaar passen */
+  float: left;
+  /* float: hierdoor gaan de elementen naar links en als er nog ruimte aan de
+  rechterkant over is, vloeit de inhoud, die hiernaar komt er in.
+  Kijk eventurrl wat er gebeurt als je float:left weghaald!! */
+  border-radius: 15px;
+    
+    /*Start Leroy*/
+    width: 360px;
+    box-sizing: border-box;
+    
+    /*40 pixels of 2 blokken links en 40pixels of 2 blokken rechts vrij houden*/
+    margin: 20px;
+
+   /*end*/ 
+}
+.weinig {
+   /* dit is voor de sections met weinig inhoud: die kunnen smaller.
+   Ze hebben in de amrk-up een class weinig meegekregen.
+   Kijk goed naar de uitwerking en geef ze een breedte,
+   zodat ze met 4 secties naast elkaar kunnen */
+    
+    /*Start Leroy*/
+    width: 260px;
+    
+   /*end*/ 
+    
+}
+
+.prioriteiten
+{
+padding-bottom: 52px;  
+}
+
+#agenda
+{
+}
+
+#uitstel
+{
+    
+}
+
+
+
+section h3{
+color: #FFF;
+  margin: 0;
+  padding: 20px 0 40px 60px;
+  font-size: 20px;
+  line-height: 21px;
+  background-color: blue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h3~ p
+{
+padding-top:40px;
+color:red;    
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+footer {
+  clear: left;
+  /*als dit achterwege blijft vloeit de footer ook nog langs de
+  floatende elementen.
+  Deze 'hack' zorgte er dus voor dat de footer 'onder' de sectins
+  blijft */
+  background-color: rgba(0,0,0,.7);
+  color: white;
+    padding-left: 70px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+{
+    
+}
+
+
+
+section h3{
+color: #FFF;
+  margin: 0;
+  padding: 20px 0 40px 60px;
+  font-size: 20px;
+  line-height: 21px;
+  background-color: blue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+h3~ p
+{
+padding-top:40px;
+color:red;    
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+footer {
+  clear: left;
+  /*als dit achterwege blijft vloeit de footer ook nog langs de
+  floatende elementen.
+  Deze 'hack' zorgte er dus voor dat de footer 'onder' de sectins
+  blijft */
+  background-color: rgba(0,0,0,.7);
+  color: white;
+    padding-left: 70px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
