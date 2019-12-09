@@ -2,7 +2,43 @@
     
    /*end*/ 
 
+@media screen and (min-width:500px)
+{
+    body
+    { 
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    }https://blanken5.home.xs4all.nl/responsiveGrid.html
+    
+    
+    header{
+           grid-column: 1/3;
+    }   
+    
+    main{display:grid;
+           grid-column: 1/3;
+         grid-template-columns: 1fr 1fr;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+@media screen and (min-width:600px)
+{ 
 body {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
   font-family: sans-serif;
   /*background-color: dodgerblue;*/
   margin: 0;
@@ -14,11 +50,13 @@ body {
  /**/
 }
 
-.wrapper {
+.wrapperd {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
   background-color: rgba(255, 255, 255, .7);
   background-image: url('../img/transp.png'), url('../img/grid.png');
   overflow: auto;
-  width: 1240px;
+    width: 1800px;
 
     /*Start Leroy challenge opdracht*/
         margin:0 auto;
@@ -33,6 +71,8 @@ body {
   */
 }
 header {
+    grid-column: 1/3;
+       grid-template-columns: 1fr 1fr;
   background-color: rgba(0,0,0,.7);
   color: #fff;
     
@@ -81,8 +121,13 @@ header a:hover {
   text-decoration: none;
   color: #aaa;
 }
-main {
- padding-left:40px;
+main 
+{
+display:grid;
+grid-column: 1/3;
+      grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+padding-left:40px;
 }
 section {border:1px solid red;
   background-color: rgba(30, 200, 240, 0.5);
@@ -243,4 +288,5 @@ background-color: rgba(0,0,0,.7);
     width: auto;
     border: 0;
     margin: 0 .3em;
+}
 }
